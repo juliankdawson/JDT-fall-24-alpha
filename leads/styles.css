@@ -114,6 +114,7 @@ input[type="text"]:focus {
   text-align: center;
   font-size: 30px;
   margin-bottom: 15px;
+  position: relative;
 }
 
 #about h3 {
@@ -175,4 +176,14 @@ button:hover .github-inline {
   margin-bottom: -3.5px;
   margin-right: 1px;
   filter: invert(1);
+}
+
+.toggler {
+  position: absolute;
+  left: 0;
+  font-size: medium;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 0;
 }
